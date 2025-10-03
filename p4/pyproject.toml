@@ -1,0 +1,12 @@
+[project]
+name = "p4"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=2.12.4",
+    "mcp[cli]>=1.16.0",
+    "pandas>=2.3.3",
+    "pyarrow>=21.0.0",
+]
